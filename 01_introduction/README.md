@@ -109,12 +109,12 @@ In this course, we utilize **FastMCP** for rapid implementation while diving int
 
 ## 🛠️ Hands-on Code Overview
 
-In [`hands_on.py`](./hands_on.py), you will find:
+In [`intro_fundamentals.py`](./intro_fundamentals.py), you will find:
 - A complete FastMCP server initialization.
 - Tool and Resource registration.
 - An in-memory testing routine using a client session simulator to verify server response without needing external UIs.
 
 ### To Run the Hands-on Script:
 ```bash
-python 01_introduction/hands_on.py
+python 01_introduction/intro_fundamentals.py
 ```

@@ -93,7 +93,7 @@ Client                             Server
 
 ## 🛠️ Hands-on Code Overview
 
-In [`hands_on.py`](./hands_on.py), you will build and test:
+In [`resources_demo.py`](./resources_demo.py), you will build and test:
 1. Static configuration resource (`config://system_settings`).
 2. Dynamic SQLite user profile template (`sqlite://users/{user_id}`).
 3. Dynamic system log file reader resource (`logs://application.log`).
@@ -101,5 +101,5 @@ In [`hands_on.py`](./hands_on.py), you will build and test:
 
 ### To Run the Hands-on Script:
 ```bash
-python 03_resources/hands_on.py
+python 03_resources/resources_demo.py
 ```

@@ -113,7 +113,7 @@ This prevents server crashes and allows the LLM to inspect the error message and
 
 ## 🛠️ Hands-on Code Overview
 
-In [`hands_on.py`](./hands_on.py), you will practice:
+In [`tools_demo.py`](./tools_demo.py), you will practice:
 1. Defining multi-parameter tools with Pydantic validation.
 2. Building an asynchronous weather API mock tool.
 3. Batch data processing tool returning formatted statistics.
@@ -121,5 +121,5 @@ In [`hands_on.py`](./hands_on.py), you will practice:
 
 ### To Run the Hands-on Script:
 ```bash
-python 02_tools/hands_on.py
+python 02_tools/tools_demo.py
 ```
