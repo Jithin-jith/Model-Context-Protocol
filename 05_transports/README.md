@@ -88,14 +88,14 @@ Client                                                  Server
 ## 🛠️ Hands-on Code Overview
 
 This module provides two distinct hands-on files:
-1. [`hands_on_stdio.py`](./hands_on_stdio.py): Standard IO MCP server runner.
-2. [`hands_on_sse.py`](./hands_on_sse.py): Starlette/Uvicorn SSE transport server and an HTTP test client connecting over network sockets.
+1. [`stdio_demo.py`](./stdio_demo.py): Standard IO MCP server runner.
+2. [`sse_demo.py`](./sse_demo.py): Starlette/Uvicorn SSE transport server and an HTTP test client connecting over network sockets.
 
 ### To Run the Hands-on Examples:
 ```bash
 # Test Stdio Server runner
-python 05_transports/hands_on_stdio.py
+python 05_transports/stdio_demo.py
 
 # Test SSE Server & Remote Client
-python 05_transports/hands_on_sse.py
+python 05_transports/sse_demo.py
 ```
